@@ -32,12 +32,25 @@ This isn't your typical tutorial repository - it's a living, breathing collectio
 - Machine Learning Project Lifecycle
 
 ## 📦 Repository Structure
-data-learning-science/ 
-├── notebooks/ # Jupyter notebooks with examples
-├── tutorials/ # Step-by-step guides
-├── case-studies/ # Real-world applications
-├── code/ # Reusable code modules
-└── resources/ # Additional learning materials
+data-learning-science/
+│
+├── notebooks/              # Jupyter notebooks with examples
+│
+├── tutorials/             # Step-by-step guides
+│
+├── case-studies/          # Real-world applications
+│
+├── code/                  # Reusable code modules
+│   ├── utils/            # Utility functions
+│   ├── models/           # Model implementations
+│   └── data/             # Data processing scripts
+│
+├── resources/             # Additional learning materials
+│   ├── datasets/         # Sample datasets
+│   ├── documentation/    # Extended guides
+│   └── references/       # Research papers & articles
+│
+└── tests/                 # Unit tests and integration tests
 
 ## 🚀 Getting Started
 *To be added later*
